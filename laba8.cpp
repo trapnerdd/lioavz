@@ -28,7 +28,7 @@ int main() {
 	int* visited;
 	int numG, cur;
 	srand(time(NULL));
-	printf("Введите кол-во вершин");
+	printf("Р’РІРµРґРёС‚Рµ РєРѕР»-РІРѕ РІРµСЂС€РёРЅ");
 	scanf_s("%d", &numG);
 
 	G = (int**)malloc(numG * sizeof(int*));
@@ -52,8 +52,8 @@ int main() {
 		}
 		printf("\n");
 	}
-	printf("Введите начальную вершину: ");
+	printf("Р’РІРµРґРёС‚Рµ РЅР°С‡Р°Р»СЊРЅСѓСЋ РІРµСЂС€РёРЅСѓ: ");
 	scanf_s("%d", &cur);
-	printf("Порядок обхода ");
+	printf("РџРѕСЂСЏРґРѕРє РѕР±С…РѕРґР° ");
 	BFS(G, visited, numG,cur);
 }
